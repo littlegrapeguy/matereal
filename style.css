@@ -1,0 +1,249 @@
+@import url ('https://matereal.glitch.me/mono.css, https://matereal.glitch.me/font.css');
+
+* {
+  font-family: "Google", sans-serif;
+}
+
+body {
+  margin: 0em;
+  background-color: #202124;
+  color: #E8EAED;
+  line-height: 1.8;
+}
+
+main {
+  margin: 4em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+::-webkit-input-placeholder {
+  color: #E8EAED;
+}
+
+:-ms-input-placeholder {
+  color: #E8EAED;
+}
+
+::placeholder {
+  color: #E8EAED;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  outline: none;
+  border: solid #e2e2e3 1.5px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 200px;
+  color: #E8EAED;
+}
+
+input[type="text"]:hover {
+  background-color: #303134;
+  border: solid #303134 1.5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input[type="text"]:focus {
+  background-color: #303134;
+  border: solid #303134 1.5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+textarea {
+  background-color: transparent;
+  outline: none;
+  border: solid #e2e2e3 1.5px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  color: #E8EAED;
+}
+
+hr {
+  border: 1px solid #E8EAED;
+}
+
+a {
+  color: #8AB4F8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a6a6a6;
+  text-decoration: underline;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  font-style: italic;
+  border-left: 4px solid #8AB4F8;
+  cursor: default;
+}
+
+blockquote cite {
+  font-style: normal;
+  color: #a6a6a6;
+}
+
+button {
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #303134;
+  outline: none;
+  border: none;
+  color: #E8EAED;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:active {
+  transform: scale(0.9, 0.9);
+  transition: 0.3s;
+}
+
+code {
+  background-color: #283142;
+  border-radius: 4px 4px 4px 4px;
+  color: white;
+  padding: 5px;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 14px;
+}
+
+pre code {
+  padding: 10px;
+  display: block;
+  overflow-x: auto;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+kbd {
+  color: #8AB4F8;
+  padding: 2px 5px;
+  background-color: #636363;
+  border: 1px solid #8AB4F8;
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;
+}
+
+video {
+  width: 300px;
+}
+
+summary {
+  font-size: 1.3em;
+  font-style: bold;
+  color: #8AB4F8;
+}
+
+details:hover {
+  cursor: pointer;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #303134;
+  margin: 0px;
+  padding: 70px;
+  position: relative;
+}
+
+header {
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  background-color: #303134;
+  margin: 0px;
+  padding: 30px;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #303134;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+  flex: 100%;
+  transition: 1s;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (min-width: 600px) {
+  .card,
+  .cardy {
+    flex: 30%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card,
+  .cardy {
+    flex: 15%;
+  }
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid #E8EAED;
+}
+
+th {
+  color: #8AB4F8;
+  border: 1px solid #E8EAED;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid #E8EAED;
+  padding: 7px;
+}
